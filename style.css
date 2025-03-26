@@ -170,6 +170,7 @@ nav{
 }
 .typedText{
     text-transform: capitalize;
+    font-size: 45px;
     color: rgb(236, 170, 246);
 }
 .featured-text-info{
@@ -355,11 +356,33 @@ h3{
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
+
+.project-boxes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;  
+}
+
 .project-box>i{
     font-size: 50px;
     color: #00B5E7;
     margin-bottom: 25px;
 }
+
+.project-boxes>i{
+    font-size: 50px;
+    color: #00B5E7;
+    margin-bottom: 25px;
+}
+
 .project-box label{
     font-size: 15px;
     color: #777;
